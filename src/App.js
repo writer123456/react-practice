@@ -14,7 +14,7 @@ function App() {
   return(
     <ThemeProvider>
       <div style={{backgroundColor: screen_colors, height: '100vh', width: '100vw'}}>
-        {/* <SearchText /> */}
+        <SearchText />
         <CounterRedux />
       </div>
     </ThemeProvider>
