@@ -1,0 +1,25 @@
+.first-div-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(72, 56, 198);
+  gap: 10px;
+}
+.second-div-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(72, 56, 198);
+  gap: 10px;
+
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px rgb(72, 56, 198);
+    gap: 5px;
+  }
+}
+
